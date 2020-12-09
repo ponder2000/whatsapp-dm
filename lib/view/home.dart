@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
             Container(
               width: windowWidth * 0.8,
               decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.82),
+                color: Colors.white.withOpacity(1),
                 borderRadius: BorderRadius.circular(20.0),
               ),
               child: IntlPhoneField(
@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
               height: windowHeight * 0.35,
               width: windowWidth * 0.8,
               decoration: BoxDecoration(
-                color: Colors.white.withOpacity(0.82),
+                color: Colors.white.withOpacity(0.95),
                 borderRadius: BorderRadius.circular(20.0),
               ),
               child: TextField(
