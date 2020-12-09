@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl_phone_field/intl_phone_field.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:whatsapp_dm/view/about.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -43,7 +44,7 @@ class _HomePageState extends State<HomePage> {
               width: windowWidth * 0.8,
               padding: EdgeInsets.all(10.0),
               decoration: BoxDecoration(
-                color: Colors.deepOrange.withOpacity(0.9),
+                color: Theme.of(context).primaryColor,
                 borderRadius: BorderRadius.circular(20.0),
               ),
               child: Text(
@@ -188,7 +189,12 @@ class _HomePageState extends State<HomePage> {
                 IconButton(
                   padding: EdgeInsets.only(right: 30.0),
                   onPressed: () {
-                    // MoreInfo();
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => AboutPage(),
+                      ),
+                    );
                   },
                   icon: Icon(
                     Icons.info,
