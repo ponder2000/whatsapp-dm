@@ -27,4 +27,4 @@ A helper app that will send whatsapp messages to mobile number without bothering
 
 ### [apk file link](https://drive.google.com/file/d/1goytSlUA05Tph-1nXjft3lp-_ujNAQE5/view?usp=sharing)
 
-If you liked this, ⭐️ then repository and do download the app it will be required in time of needs 😁
+If you appriciate the work, then ⭐️ this repository and do download the app it will be required in time of needs 😁
